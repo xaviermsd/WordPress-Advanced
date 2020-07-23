@@ -1,15 +1,8 @@
 <?php 
-/*Main template file.*/
+/**
+ * Main Template File
+ * @package wordpress advanced
+ */
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>WordPress Advanced</title>
-	<link rel="stylesheet" href="">
-</head>
-<body>
-	
-</body>
-</html>
+<?php get_header();?>
+<?php get_footer();?>
